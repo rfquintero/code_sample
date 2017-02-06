@@ -1,6 +1,6 @@
 == Code Sample
 
-Here we have a nearly-new Rails project with one model: User. We will be modifying this project throughout the interview.
+Here we have a nearly-new Rails project with two models: User and Place. We will be modifying this project throughout the interview.
 
 The project already includes Bootstrap and jQuery, and has the appropriate includes for JS and SASS Sprockets files.
 
