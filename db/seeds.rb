@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+namey = Namey::Generator.new
+
+if(User.count == 0)
+  25.times do |i|
+    first, last = namey.name.split(" ")
+    User.create(first_name: first, last_name: last)
+  end
+end
