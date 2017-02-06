@@ -1,28 +1,9 @@
-== README
+== Code Sample
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Here we have a nearly-new Rails project with one model: User. We will be modifying this project throughout the interview.
 
-Things you may want to cover:
+The project already includes Bootstrap and jQuery, and has the appropriate includes for JS and SASS Sprockets files.
 
-* Ruby version
+Please make sure you have the project cloned and ready to run before the interview.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Thank you!
