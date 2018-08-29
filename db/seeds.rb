@@ -8,16 +8,16 @@
 
 namey = Namey::Generator.new
 
-if(User.count == 0)
-  25.times do |i|
-    first, last = namey.name.split(" ")
-    User.create(first_name: first, last_name: last)
-  end
-end
-
 if(Place.count == 0)
   letters = ('a'..'z').to_a
   13.times do |i|
     Place.create(name: "Place #{i+1}", letter1: letters.shift, letter2: letters.shift)
+  end
+end
+
+if(User.count == 0)
+  25.times do |i|
+    first, last = namey.name.split(" ")
+    User.create(first_name: first, last_name: last)
   end
 end

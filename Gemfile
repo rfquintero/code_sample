@@ -18,6 +18,7 @@ gem 'namey'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'haml'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
