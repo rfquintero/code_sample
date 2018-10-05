@@ -9,8 +9,9 @@
 namey = Namey::Generator.new
 
 if(Place.count == 0)
-  letters = ('a'..'z').to_a
-  13.times do |i|
+  dupes = 5
+  letters = (('a'..'z').to_a * dupes).shuffle!
+  (13 * dupes).times do |i|
     Place.create(name: "Place #{i+1}", letter1: letters.shift, letter2: letters.shift)
   end
 end

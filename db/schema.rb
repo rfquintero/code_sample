@@ -14,9 +14,9 @@
 ActiveRecord::Schema.define(version: 20170206212503) do
 
   create_table "places", force: :cascade do |t|
-    t.string "name",              null: false
-    t.string "letter1", limit: 1, null: false
-    t.string "letter2", limit: 1, null: false
+    t.string "name",    null: false
+    t.string "letter1", null: false
+    t.string "letter2", null: false
   end
 
   create_table "users", force: :cascade do |t|
